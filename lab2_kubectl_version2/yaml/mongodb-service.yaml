@@ -11,4 +11,4 @@ spec:
       targetPort: 27017
   selector:
     app: mongodb
-  type: NodePort
+  type: LoadBalancer

@@ -4,7 +4,7 @@ metadata:
   name: guestbook-ingress
 spec:
   rules:
-  - host: frontend.minikube.local
+  - host: 192.168.254.188
     http:
       paths:
       - path: /
@@ -14,7 +14,7 @@ spec:
             name: frontend
             port: 
               number: 80
-  - host: backend.minikube.local
+  - host: 192.168.254.189
     http:
       paths:
       - path: /

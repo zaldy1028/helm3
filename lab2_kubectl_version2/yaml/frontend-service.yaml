@@ -11,3 +11,4 @@ spec:
       targetPort: 4200
   selector:
     app: frontend
+  type: LoadBalancer
